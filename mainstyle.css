@@ -33,7 +33,7 @@ h1 {
 }
 
 .leftside {
-	width: 120px;
+	width: 40px;
 	float: left;
 	padding: 20px;
 	min-height: 100%;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .main {
-	margin-left: 140px;
+	margin-left: 60px;
 	min-height: 100%;
 	padding: 20px;
 	background-color: #66FF66;
@@ -57,4 +57,12 @@ h1 {
 	width: 100px;
 	text-align: right;
 	padding-right: 10px;
+}
+
+table {
+	background-color: #99FF66;
+}
+
+th, td {
+	padding: 7px 10px 10px 10px;
 }
