@@ -4,7 +4,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="mainstyle.css">
-	<link rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -13,24 +12,17 @@
 
 <div class="top">
 	<h1 id='head1'>How old were you?</h1>
-</div>
+</div> <!-- end of "top" div -->
 <div class="leftside">
-<!--<p class='text1'>Here<br />
-		is<br />
-		some<br />
-		text<br />
-		on<br />
-		the<br />
-		side.
-	</p>
--->
-</div>
+</div> <!-- end of "leftside" div -->
 <div class="main">
 	<form action="">
 	    <p class='text1'>
-		    Enter someone's birthday below, and we'll tell you how old that person was 
-		    at various historical dates.
+		    Enter someone's name and birthday below, and we'll tell you how old that 
+            person was at various historical dates.
         </p>
+        <fieldset>
+            <legend>Enter data here</legend>
         <div>
         	<p>
         		<label for="name" class="title">Name:</label>
@@ -43,35 +35,17 @@
         		<input type="date" name="bday" id="bday">
         	</p>
         </div>
-        <input id="subbtn" type="submit" value="Submit Birthday">
+        <div class="submit">
+            <input id="subbtn" type="submit" value="Show table">
+        </div> <!-- end of "submit" div -->
+    </fieldset>
     </form>
     <div id="writehere">
     </div>
-
-
-<!--        
-        <select name="month" size="12">
-        	<option value="01">January</option>
-        	<option value="02">February</option>
-        	<option value="03">March</option>
-        	<option value="04">April</option>
-        	<option value="05">May</option>
-        	<option value="06">June</option>
-        	<option value="07">July</option>
-        	<option value="08">August</option>
-        	<option value="09">September</option>
-        	<option value="10">October</option>
-        	<option value="11">November</option>
-        	<option value="12">December</option>
-        </select>
-        <select name="day" size="31">
-        </select>
--->
     
+</div> <!-- end of "main" div -->
 
-</div>
-
-</div>
+</div> <!-- end of "all" div -->
 <script type="text/javascript" src="howOldWereYou.js"></script>
 </body>
 

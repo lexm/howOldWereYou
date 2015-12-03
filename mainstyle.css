@@ -59,10 +59,16 @@ h1 {
 	padding-right: 10px;
 }
 
+.submit {
+	text-align:right;
+}
+
 table {
 	background-color: #99FF66;
+	border-collapse: collapse;
 }
 
 th, td {
 	padding: 7px 10px 10px 10px;
+	border: 1px solid;
 }
