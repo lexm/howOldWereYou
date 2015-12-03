@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+	text-align: center;
+}
+
+#head1 {
+	font-size: 250%;
+}
+
+.all {
+	height: 100%;
+	overflow: hidden;
+}
+
+.top {
+	top:0;
+	height: 60px;
+	padding-top: 15px;
+	background: -webkit-linear-gradient(#99CCFF, #66FF66); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#99CCFF, #66FF66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#99CCFF, #66FF66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#99CCFF, #66FF66); /* Standard syntax */
+/*	background-color: #ff9999; */
+}
+
+.leftside {
+	width: 120px;
+	float: left;
+	padding: 20px;
+	min-height: 100%;
+	background-color: #5EF75E;
+}
+
+.main {
+	margin-left: 140px;
+	min-height: 100%;
+	padding: 20px;
+	background-color: #66FF66;
+}
+
+.text1 {
+	margin-left: 20px;
+	font-family: 'Vollkorn', serif;
+}
+
+.title {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
