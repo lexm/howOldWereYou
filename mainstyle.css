@@ -66,6 +66,7 @@ h1 {
 table {
 	background-color: #99FF66;
 	border-collapse: collapse;
+	width: 100%;
 }
 
 th, td {
